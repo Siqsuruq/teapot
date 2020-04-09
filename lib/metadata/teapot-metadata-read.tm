@@ -35,7 +35,8 @@
 ## Requirements
 
 package require fileutil                    ; # Directory traversal
-package require fileutil::magic::mimetype   ; # Detect zip archive
+#package require fileutil::magic::mimetype   ; # This command has been removed and its features incorporated into fileutil::magic::filetype. Detect zip archive
+package require fileutil::magic::filetype
 package require logger                     ; # Tracing
 package require teapot::metadata::container ; # Container for read meta data
 package require teapot::reference           ; # Reference validation.
